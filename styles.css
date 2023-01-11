@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.background {
+     background-size: cover;
+}
+
+.header {
+    background-color: rgb(18,29,51);
+    border-bottom: 1px solid grey;
+    margin: 0;
+}
+
+.logo {
+    width: 224px;
+    cursor: pointer;
+}
+.left-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-text {
+    text-decoration: none;
+    color: #c2c9d6;
+    margin: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 0.4s;
+    font-size: 15px;
+    font-weight: bold;
+}
+.header-text:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+.fa-ellipsis {
+    cursor: pointer;
+}
+.fa-magnifying-glass {
+    color: #c2c9d6;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.fa-magnifying-glass:hover {
+    opacity: 0.8;
+}
+.header-button-login {
+    padding: 10px 15px;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.5s;
+    font-size: 15px;
+    margin: 15px;
+}
+.header-button-login:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8);
+}
+.header-button-signup {
+    padding: 12px 15px;
+    font-weight: 500;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(18,29,51);
+    cursor: pointer;
+    border-radius: 7px;
+    transition: all 0.5s;
+    font-size: 15px;
+}
+.header-button-signup:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.right-sec {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 150px;
+}
+.header-content {
+    display: flex;
+    padding-left: 150px;
+}
+
+.hero-sec {
+    background: url(https://www.blockchain.com/static/img/home/home-hero-gradient.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 628px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+.hero-sec-content {
+    padding: 130px 300px;
+}
+
+.heading {
+    color: white;
+    font-weight: 600;
+    font-size: 48px;
+    width: 700px;
+    margin-bottom: 25px;
+}
+.heading-para {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    width: 700px;
+    margin-bottom: 25px;
+}
+.email {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 6px;
+    padding: 14px 0;
+    padding-left: 12px;
+    padding-right: 200px;
+    font-size: 15px;
+    color: white;
+}
+::placeholder {
+    color: white;
+    font-weight: 400;
+}
+.submit {
+    padding: 14px 20px;
+    border-radius: 6px;
+    border: none;
+    color: rgb(12, 108, 242);
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 15px;
+}
